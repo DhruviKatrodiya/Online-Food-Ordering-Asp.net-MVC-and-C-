@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DSOFOS.ViewModel.CategoryViewModel>
+@{
+    ViewBag.Title = "ShowMenuRest";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+@*@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Success!</strong> Order
+    </div>
+
+}*@
+
+@*<div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-10">
+        @if (TempData["total"] == null)
+        {
+
+            <h3>
+                Total Bill: 0 Rs
+            </h3>
+        }
+        else
+        {
+            <h3> Total Bill: @TempData["total"] Rs</h3>
+
+        }
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <h3 style="color:#808080; font-family:'Arial Rounded MT';text-align:center"> <span class="btn btn-info">@Html.ActionLink("Check Out", "checkout","Categories")</span></h3>
+        </div>
+    </div>
+</div>*@
+
+    <center><h2><b>Category Lists</b></h2></center>
+    <br />
+
+<div class="row">
+    <div class="container">
+        
+        @foreach (var item in Model)
+        {
+
+            <div class="col-md-4" style="border:2px solid black">
+                <div style="text-align:center; border-bottom:2px solid maroon">
+                    <h3>@item.CategoryName</h3>
+                </div>
+                <div>
+                    <div class="col-md-8">
+                        <img src="~/@Html.DisplayFor(modelItem => item.Image)" alt="" width="100px" height="100px">
+                    </div>
+                    @*<div class="col-md-4" style="text-align:left">
+                <b>@item.RestaurantDescription</b>
+            </div>
+        </div>
+
+        <div class="col-md-8" style="font-size:18px; border-top:2px solid maroon;padding:2px">
+            <b>@item.OpenTime</b>
+        </div>
+
+        <div class="col-md-8" style="font-size:18px; border-top:2px solid maroon;padding:2px">
+            <b>@item.CloseTime</b>
+        </div>*@
+
+                <div class="col-md-4" style="text-align:right; margin-bottom:10px;border-top:2px solid maroon;padding:2px">
+                    @*<input type="button" name="AddToCart" value="Add to Cart" class="btn btn-primary" itemid="@item.MenuItemId" id="btnAddToCart" onclick="AddToCart(this)"/>*@
+                    @*<h4 style="color:#808080; font-family:'Arial Rounded MT';text-align:center">
+            <span class="btn btn-success">
+                <i style="font-size:20px" class="fa">&#xf07a;</i>
+                    @Html.ActionLink("Add To Cart", "Adtocart", "Categories", new { id = @item.RestaurantId })
+            </span>
+        </h4>*@
+
+                    <td>
+                        <a href='@Url.Action("ShowMenu",new {categoryId = item.CategoryId})'>
+                            <input type='button' value='Show Menu' class="btn btn-primary" />
+                        </a>
+                    </td>
+                    @*<td>
+            @Html.ActionLink("Review", "ShowComment", "Categories", new { menuItemId = @item.RestaurantId })
+        </td>*@
+                </div>
+                    @*<td>
+                        <a href='@Url.Action("ShowMenu",new {categoryId = item.CategoryId})'>
+                            <input type='button' value='Show Menu' class="btn btn-primary" />
+                        </a>
+                    </td>*@
+
+                </div>
+        
+    </div>
+        }
+</div>
+</div>

@@ -1,0 +1,83 @@
+﻿@model DSOFOS.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderDisplayNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderDisplayNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItem.MenuItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItem.MenuItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Payment.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Payment.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.RestaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.RestaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserMaster.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserMaster.UserName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

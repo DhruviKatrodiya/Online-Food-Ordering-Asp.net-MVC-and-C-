@@ -1,0 +1,191 @@
+﻿@model DSOFOS.Models.MenuItem
+@using DSOFOS.Models
+
+@{
+    ViewBag.Title = "invoice_Genration";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+
+<h2 class="text-center text-uppercase">invoice_Genration</h2>
+
+<div class="table table-bordered" style="width:100%">
+    <div class="brand-section">
+        <div class="row">
+            <div class="col-6">
+
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="body-section">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="heading">
+                    Invoice No.: @foreach (var item in TempData["FoodCartClass"] as List<DSOFOS.Models.FoodCartClass>)
+                    {
+
+                        <tr>
+                            <td>@item.ItemId</td>
+                        </tr>
+
+                    }
+                </h4>
+
+                @*<p class="sub-heading">
+                    Order Date:
+
+                </p>*@
+                <p class="sub-heading">Email Address: DSOFOS@gmail.com </p>
+            </div>
+            <div class="col-6">
+                <p class="sub-heading">Full Name: DS Online Food Ordering System </p>
+                <p class="sub-heading">Address: DSOFOS  </p>
+                <p class="sub-heading">Phone Number: +91 7894561231 </p>
+                <p class="sub-heading">City,State,Pincode: Surat,Gujrat,395006 </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (TempData["FoodCartClass"] != null)
+{
+
+
+    <table class="table table-bordered" id='example' style="width:100%">
+
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>BILL</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in TempData["FoodCartClass"] as List<DSOFOS.Models.FoodCartClass>)
+            {
+
+                <tr>
+                    <td>@item.ItemId</td>
+                    <td>@item.ItemName</td>
+                    <td>@item.Amount</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Bill</td>
+
+
+                </tr>
+                @*<tr>
+                        <a class='btn btn-primary btn-sm;' href="@Url.Action("Create","PaymentsUser", new {id=@item.ItemId})">Procee to add;</a>
+
+                    </tr>*@
+
+            }
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>@TempData["total"]</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+}
+else
+{
+    <h2 style="color:red"> Cart is empty....</h2>
+    @Html.ActionLink("go Back", "Index")
+}
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+<script type="text/javascript"></script>
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#example').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "dom": 'Bfrtip',
+                "ajax": {
+                    "url": "MenuItems/invoice_Genration",
+                    "type": 'POST'
+                       /* / "datatype": 'json'/*/
+                    /* "dataType": 'json'*/
+                },
+                "columns": [
+                    { 'data': 'ItemId' },
+                    { 'data': 'ItemName' },
+                    { 'data': 'Quantity' },
+                    { 'data': 'Bill' },
+                    { 'data': 'Amount' }
+
+                ],
+                "buttons": [
+                    {
+                        extend: 'copy',
+                        className: 'btn btn-dark rounded-0',
+                        text: '<i class="far fa-copy"></i>Copy'
+                    },
+                    {
+                        extend: 'excel',
+                        className: 'btn btn-dark rounded-0',
+                        text: '<i class="far fa-file-excel"></i>Excel'
+                    },
+                    {
+                        extend: 'pdf',
+                        className: 'btn btn-dark rounded-0',
+                        text: '<i class="far fa-file-pdf"></i>PDf'
+                    },
+                    {
+                        extend: 'csv',
+                        className: 'btn btn-dark rounded-0',
+                        text: '<i class="fas fa-file-csv"></i>CSV'
+                    },
+                    {
+                        extend: 'print',
+                        className: 'btn btn-dark rounded-0',
+                        text: '<i class="fas fa-print></i> Print'
+                    },
+
+                ],
+            });
+        });
+    </script>
+}
+
+
+
+
+
+
+
+@*@if (TempData["FoodCartClass"] != null)
+    {
+
+
+        using (Html.BeginForm())
+        {
+
+
+< a href = '@Url.Action("Index", "Payments", new { id = Model.MenuItemId })' ></ a > 
+
+<input type="submit" value="invoice_Genration" class="btn btn-primary" />
+
+
+}
+    }*@

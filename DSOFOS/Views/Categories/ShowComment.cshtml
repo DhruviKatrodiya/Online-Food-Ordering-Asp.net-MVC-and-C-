@@ -1,0 +1,85 @@
+﻿@model IEnumerable<DSOFOS.ViewModel.CommentViewModel>
+@{
+    ViewBag.Title = "ShowComment";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<script type="text/javascript">
+
+    function CRateOut(rating) {
+        for (var i = 1; i <= rating; i++) {
+            $("#span" + i).attr('class', 'glyphicon glyphicon-star-empty');
+        }
+    }
+
+    function CRateOver(rating) {
+        for (var i = 1; i <= rating; i++) {
+            $("#span" + i).attr('class', 'glyphicon glyphicon-star');
+        }
+    }
+
+    function CRateClick(rating) {
+        $("#lblRating").val(rating);
+        for (var i = 1; i <= rating; i++) {
+            $("#span" + i).attr('class', 'glyphicon glyphicon-star');
+        }
+        for (var i = rating + 1; i <= 5; i++) {
+            $("#span" + i).attr('class', 'glyphicon glyphicon-star-empty');
+        }
+    }
+
+    function CRateSelected() {
+        var rating = $("#lblRating").val();
+        for (var i = 1; i <= rating; i++) {
+            $("#span" + i).attr('class', 'glyphicon glyphicon-star');
+        }
+    }
+
+    function VerifyRating() {
+        var rating = $("#lblRating").val();
+        if (rating == "0") {
+            alert("Please Select Rating");
+            return false;
+        }
+    }
+
+</script>
+
+<h2>ShowComment</h2>
+
+@foreach (var item in Model)
+{
+    @Html.Partial("_CommentPartial", item)
+}
+<h3>Please Enter Your Comment</h3>
+@using (Html.BeginForm("AddComment", "Categories", FormMethod.Post, new { onsubmit = "return VerifyRating()" }))
+{
+    <textarea rows="6" cols="50" name="menuComment" id="txtMenuComment"></textarea>
+    <div onmouseout="CRateSelected()">
+        <span id="span1" onmouseout="CRateOut(1)" onmouseover="CRateOver(1)" onclick="CRateClick(1)" class="glyphicon glyphicon-star-empty"></span>
+        <span id="span2" onmouseout="CRateOut(2)" onmouseover="CRateOver(2)" onclick="CRateClick(2)" class="glyphicon glyphicon-star-empty"></span>
+        <span id="span3" onmouseout="CRateOut(3)" onmouseover="CRateOver(3)" onclick="CRateClick(3)" class="glyphicon glyphicon-star-empty"></span>
+        <span id="span4" onmouseout="CRateOut(4)" onmouseover="CRateOver(4)" onclick="CRateClick(4)" class="glyphicon glyphicon-star-empty"></span>
+        <span id="span5" onmouseout="CRateOut(5)" onmouseover="CRateOver(5)" onclick="CRateClick(5)" class="glyphicon glyphicon-star-empty"></span>
+    </div>
+
+    <br/> 
+    <div>
+        <input type="text" name="username" id="lblUserName" placeholder="Enter UserName" />
+    </div>
+
+    <div>
+        <input type="hidden" name="rating" id="lblRating" value="0" />
+    </div>
+
+    <div>
+        <input type="hidden" name="menuItemId" id="lblRating" value="@ViewBag.MenuItemId" />
+    </div>
+    <br />
+    <div>
+        <input type="submit" class="btn btn-primary active" name="SaveComment" value="Save Comment" />
+    </div>
+
+}
+
+

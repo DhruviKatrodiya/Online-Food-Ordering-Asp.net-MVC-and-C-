@@ -1,0 +1,80 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.City>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_A_DashboardLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Cities", FormMethod.Get))
+{
+    <p>
+        Search Cities: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                @Html.ActionLink("CityName", "Index", new { Sorting_Order = ViewBag.SortingName })
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CityName)
+                </th>*@
+            <th>
+                @Html.ActionLink("CityCode", "Index", new { Sorting_Order = ViewBag.SortingName })
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CityCode)
+                </th>*@
+            <th>
+                @Html.ActionLink("StateName", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.State.StateName)*@
+            </th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CityName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CityCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State.StateName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.CityId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.CityId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.CityId })
+                </td>
+            </tr>
+        }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))   

@@ -1,0 +1,111 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.tbl_order>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<h2>Check Order Status</h2>
+@using (Html.BeginForm("Index", "tbl_orderUser", FormMethod.Get))
+{
+    <p>
+        Search Status: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                @Html.ActionLink("o_date", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.o_date)*@
+            </th>
+            <th>
+                o_qty
+                @*@Html.DisplayNameFor(model => model.o_qty)*@
+            </th>
+            <th>
+                o_bill
+                @*@Html.DisplayNameFor(model => model.o_bill)*@
+            </th>
+            <th>
+                @Html.ActionLink("o_unitprice", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.o_unitprice)*@
+            </th>
+            <th>
+                @Html.ActionLink("Status", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.Status)*@
+            </th>
+            <th>
+                @Html.ActionLink("MenuItemName", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.MenuItem.MenuItemName)*@
+            </th>
+            <th>
+                @Html.ActionLink("in_id", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.tbl_invoice.in_id)*@
+            </th>
+            @*<th>
+                @Html.ActionLink("UserName", "Index", new { Sorting_Order = ViewBag.SortingName })*@
+                @*@Html.DisplayNameFor(model => model.UserMaster.UserName)*@
+            @*</th>*@
+            <th></th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.o_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.o_qty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.o_bill)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.o_unitprice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuItem.MenuItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tbl_invoice.in_id)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.UserMaster.UserName)
+            </td>*@
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.o_id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.o_id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.o_id })
+                </td>*@
+        </tr>
+    }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))

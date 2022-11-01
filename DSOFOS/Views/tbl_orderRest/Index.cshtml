@@ -1,0 +1,112 @@
+﻿@model IEnumerable<DSOFOS.Models.tbl_order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Payment Details</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.o_date)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.o_qty)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.o_bill)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.o_unitprice)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CardNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpiryDate)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.CvvNo)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentMode)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.MenuItem.MenuItemName)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.tbl_invoice.in_id)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.UserMaster.UserName)
+        </th>*@
+        @*<th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.o_date)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.o_qty)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.o_bill)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.o_unitprice)
+        </td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CardNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpiryDate)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.CvvNo)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentMode)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.MenuItem.MenuItemName)
+        </td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.tbl_invoice.in_id)
+        </td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.UserMaster.UserName)
+        </td>*@
+        @*<td>*@
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.o_id }) |*@
+            @*@Html.ActionLink("Details", "Details", new { id=item.o_id }) |*@
+            @*@Html.ActionLink("Delete", "Delete", new { id=item.o_id })*@
+        @*</td>*@
+    </tr>
+}
+
+</table>

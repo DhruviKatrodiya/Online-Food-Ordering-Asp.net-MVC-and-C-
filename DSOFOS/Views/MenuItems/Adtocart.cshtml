@@ -1,0 +1,44 @@
+﻿@model DSOFOS.Models.MenuItem
+
+@{
+    ViewBag.Title = "Adtocart";
+    //Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<h2>Add To Cart Lists</h2>
+
+@using (@Html.BeginForm())
+    {
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-4">
+
+                    <img src="~/@Html.DisplayFor(modelItem => Model.MenuItemImage)" alt="" style="width: 200px;height:200px">
+
+
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8">
+
+                    <h1>MenuItem Name: @Model.MenuItemName</h1>
+                    <h2>Price: @Model.Amount Rs.</h2>
+                    <h6>Description: @Model.MenuItemDescription </h6>
+                    
+                    <input type="number" name="qty" value="1" id="qty" min="1" max="50" />
+
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+}
+
+

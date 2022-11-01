@@ -1,0 +1,91 @@
+﻿@model DSOFOS.Models.MenuItem
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MenuItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItemImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItemImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItemDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItemDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VegNonProfile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VegNonProfile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MenuItemId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

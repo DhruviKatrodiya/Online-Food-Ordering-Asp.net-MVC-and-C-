@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Images";
+}
+
+@foreach (var p in ViewBag.pro)
+{
+    <h2>Add Image for @p.MenuItemName</h2>
+}
+@{ 
+    Html.BeginForm("Images", "MenuItems", FormMethod.Post, new { enctype = "multipart/Form-data" });
+    <table>
+        <tr>
+            <td>Select Images :</td>
+            <td><input type="file" name="file"/></td>
+            <td><input type="submit" value="Save"/></td>
+        </tr>
+    </table>
+}
+
+

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<DSOFOS.Models.tbl_order>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Date Wise Report</h2>
+@*<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    </head>
+    <body class="container">*@
+<form asp-controller="ReportDateWise" asp-action="Index" method="post">
+    <br />
+    Start Date: <input type="date" id="txtStartDate" name="startDate" class="startDate form-control" /><br />
+    End Date: <input type="date" id="txtEndDate" name="endDate" class="endDate form-control" /><br />
+    <input type="submit" value="Submit" class="btn btn-primary" />
+    <hr />
+    @if (ViewBag.Data != null)
+    {
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>Order ID</th>
+            <th>Order Date</th>
+            <th>Order Quantity</th>
+            <th>Order Price</th>
+            <th>Order Bill</th>
+            <th>Order MenuItemID</th>
+        </tr>
+        </thead>
+        @foreach (System.Data.DataRow dr in ViewBag.Data.Rows)
+        {
+            <tr>
+                <td>@dr["o_id"]</td>
+                <td>@dr["o_date"]</td>
+                <td>@dr["o_qty"]</td>
+                <td>@dr["o_unitprice"]</td>
+                <td>@dr["o_bill"]</td>
+                <td>@dr["MenuItemId"]</td>
+            </tr>
+        }
+
+    <tfoot>
+
+        <tr>
+            <td><b>Count</b></td>
+            <td>@Model.Count()</td>
+        </tr>
+
+        @*<tr>
+            <td>Total Price</td>*@
+            @*<td>Sum()</td>*@
+            @*<td>@Model.Sum(i => i.o_bill)</td>
+
+        </tr>*@
+
+
+    </tfoot>
+
+</table>
+    }
+
+</form>
+
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $(".startDate").datepicker({
+            autoclose: true,
+            format: 'dd/mm/yyyy'
+        }).on('changeDate', function (selected) {
+            var minDate = new Date(selected.date);
+            minDate.setDate(minDate.getDate() + 1);
+            $('.endDate').datepicker('setStartDate', minDate);
+        });
+
+        $(".endDate").datepicker({
+            autoclose: true,
+            format: 'dd/mm/yyyy'
+        }).on('changeDate', function (selected) {
+            var minDate = new Date(selected.date);
+            minDate.setDate(minDate.getDate() - 1);
+            $('.startDate').datepicker('setEndDate', minDate);
+        });
+    });
+</script>
+
+@*</body>
+    </html>*@
+
+
+
+

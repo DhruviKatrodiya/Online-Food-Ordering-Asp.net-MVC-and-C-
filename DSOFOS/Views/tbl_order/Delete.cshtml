@@ -1,0 +1,89 @@
+﻿@model DSOFOS.Models.tbl_order
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tbl_order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.o_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.o_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.o_qty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.o_qty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.o_bill)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.o_bill)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.o_unitprice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.o_unitprice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItem.MenuItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItem.MenuItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tbl_invoice.in_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tbl_invoice.in_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserMaster.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserMaster.UserName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

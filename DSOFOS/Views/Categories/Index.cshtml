@@ -1,0 +1,133 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.Category>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Success!</strong> Order 
+    </div>
+
+}
+
+<div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-10">
+        @if (TempData["total"] == null)
+        {
+
+            <h3>
+                Total Bill: 0 Rs
+            </h3>
+        }
+        else
+        {
+            <h3> Total Bill: @TempData["total"] Rs</h3>
+
+        }
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <h3 style="color:#808080; font-family:'Arial Rounded MT';text-align:center"> <span class="btn btn-info">@Html.ActionLink("Check Out", "checkout","Categories")</span></h3>
+        </div>
+    </div>
+</div>
+
+    <center><h2><b>Category Lists</b></h2></center>
+    <br />
+
+    @*<p>
+            @Html.ActionLink("Create New", "Create")
+        </p>*@
+
+    @using (Html.BeginForm("Index", "Categories", FormMethod.Get))
+    {
+        <p>
+            Search Category: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+            <input type="submit" value="Search" />
+        </p>
+    }
+
+
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                @Html.ActionLink("CategoryName", "Index", new { Sorting_Order = ViewBag.SortingName })
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CategoryName)
+                </th>*@
+            <th>
+                Image
+                @*@Html.DisplayNameFor(model => model.Image)*@
+            </th>
+            <!--<th>
+                IsActive-->
+            @*@Html.DisplayNameFor(model => model.IsActive)*@
+            <!--</th>-->
+            @*<th>
+                CreatedAt*@
+            @*@Html.DisplayNameFor(model => model.CreatedAt)*@
+            @*</th>*@
+            <th></th>
+        </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            if(item.IsActive == true)
+                {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.CategoryName)
+    </td>
+    <td>
+        @*@Html.DisplayFor(modelItem => item.Image)*@
+        <img src="~/@Html.DisplayFor(modelItem => item.Image)" alt="" width="100px" height="100px">
+    </td>
+    @*<td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>*@
+    @*<td>
+            @Html.DisplayFor(modelItem => item.CreatedAt)
+        </td>*@
+    @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CategoryId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CategoryId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CategoryId })
+        </td>*@
+
+    @*<td>
+            <a href='@Url.Action("Index","MenuItems",new {item = item.CategoryId})'>
+                <input type='button' value='Menu' class="btn btn-primary" />
+            </a>
+        </td>*@
+
+    <td>
+        <a href='@Url.Action("ShowMenu",new {categoryId = item.CategoryId})'>
+            <input type='button' value='Show Menu' class="btn btn-primary" />
+        </a>
+    </td>
+
+</tr>
+                }
+            
+        }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+    <br />
+    Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @Html.PagedListPager(Model, Page_No => Url.Action("Index",
+        new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))

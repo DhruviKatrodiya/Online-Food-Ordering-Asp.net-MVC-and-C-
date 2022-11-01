@@ -1,0 +1,166 @@
+﻿@model IEnumerable<DSOFOS.Models.Restaurant>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<h2>Restaurants</h2>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+@using (Html.BeginForm())
+{
+    @Html.TextBox("Search")
+        <input type="submit" name="Search" value="Search" />
+    
+}
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                RestaurantName
+                @*@Html.ActionLink("RestaurantName", "Index", new { Sorting_Order = ViewBag.SortingName })*@
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.RestaurantName)
+                </th>*@
+            <th>
+                RestaurantImage
+                @*@Html.DisplayNameFor(model => model.RestaurantImage)*@
+            </th>
+            <th>
+                RestaurantDescription
+                @*@Html.DisplayNameFor(model => model.RestaurantDescription)*@
+            </th>
+            <th>
+                startTime
+                @*@Html.DisplayNameFor(model => model.IsActive)*@
+            </th>
+            <th>
+
+                endTime
+                @*@Html.DisplayFor(modelItem => item.OpenTime)*@
+            </th>
+            @*<th>
+
+                IsActive*@
+            @*@Html.DisplayNameFor(model => model.CloseTime)*@
+            @*</th>
+
+                <th>
+                    @Html.ActionLink("CategoryName", "Index", new { Sorting_Order = ViewBag.SortingName })*@
+            @*@Html.DisplayNameFor(model => model.Category.CategoryName)*@
+            @*</th>*@
+
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        if (item.IsActive == true)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RestaurantName)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.RestaurantImage)*@
+                    <img src="~/@Html.DisplayFor(modelItem => item.RestaurantImage)" alt="" width="80px" height="80px">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RestaurantDescription)
+                </td>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.startTime)
+                </td>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.endTime)
+                </td>
+
+
+
+
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.IsActive)
+                    </td>*@
+
+
+                @*<td>*@
+                @*@Html.DisplayFor(modelitem => item.IsActive)*@
+                @*@{*@
+                @*if (item.IsActive)
+                            {
+                                <a href="#" style="padding:5px 10px 5px 10px;background-color:green" class="badge" readonly>active</a>
+                            }
+                            else
+                            {
+                                <a href="#" style="padding:5px 10px 5px 10px;background-color:red" class="badge" readonly>de-active</a>
+                            }
+                        }
+                    </td>*@
+
+
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>*@
+            </tr>
+            if (DateTime.Now < item.endTime)
+            {
+                <tr>
+                    <td>
+
+                        <a href='@Url.Action("Index","Categories", new { RestaurantId = item.RestaurantId })'>
+                            <input type='button' value='Show Category' class="btn btn-primary"  />
+                        </a>
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td>
+
+
+                        <input type='button' value='Show Category' class="btn btn-primary" />
+
+                    </td>
+                </tr>
+            }
+
+
+
+        }
+
+
+        @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RestaurantId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RestaurantId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RestaurantId })
+            </td>*@
+
+        @*<td>
+                <a href='@Url.Action("ShowCategory",new {RestaurantId = item.RestaurantId})'>
+                    <input type='button' value='Show Menu' class="btn btn-primary" />
+                </a>
+            </td>*@
+
+    }
+
+
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>

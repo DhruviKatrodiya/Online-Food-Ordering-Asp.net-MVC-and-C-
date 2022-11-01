@@ -1,0 +1,43 @@
+﻿@model DSOFOS.Models.Cart
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cart</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuItem.MenuItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuItem.MenuItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserMaster.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserMaster.UserName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CartId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

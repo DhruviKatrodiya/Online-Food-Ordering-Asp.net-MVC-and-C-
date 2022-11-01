@@ -1,0 +1,724 @@
+E:\M.SC.ICT\DSOFOS\bin\DSOFOS.dll.config
+E:\M.SC.ICT\DSOFOS\bin\DSOFOS.dll
+E:\M.SC.ICT\DSOFOS\bin\DSOFOS.pdb
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csc.exe
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csc.exe.config
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csc.rsp
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csi.exe
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csi.exe.config
+E:\M.SC.ICT\DSOFOS\bin\roslyn\csi.rsp
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\M.SC.ICT\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.AppContext.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Console.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.IO.Compression.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Net.Http.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.ValueTuple.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\M.SC.ICT\DSOFOS\bin\roslyn\vbc.exe
+E:\M.SC.ICT\DSOFOS\bin\roslyn\vbc.exe.config
+E:\M.SC.ICT\DSOFOS\bin\roslyn\vbc.rsp
+E:\M.SC.ICT\DSOFOS\bin\roslyn\VBCSCompiler.exe
+E:\M.SC.ICT\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+E:\M.SC.ICT\DSOFOS\bin\Antlr3.Runtime.dll
+E:\M.SC.ICT\DSOFOS\bin\EntityFramework.dll
+E:\M.SC.ICT\DSOFOS\bin\EntityFramework.SqlServer.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+E:\M.SC.ICT\DSOFOS\bin\Newtonsoft.Json.dll
+E:\M.SC.ICT\DSOFOS\bin\Owin.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Net.Http.Formatting.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Helpers.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Http.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Http.WebHost.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Mvc.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Optimization.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Razor.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.Razor.dll
+E:\M.SC.ICT\DSOFOS\bin\WebGrease.dll
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Helpers.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Mvc.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Optimization.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Razor.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.WebPages.Razor.xml
+E:\M.SC.ICT\DSOFOS\bin\Newtonsoft.Json.xml
+E:\M.SC.ICT\DSOFOS\bin\Antlr3.Runtime.pdb
+E:\M.SC.ICT\DSOFOS\bin\System.Net.Http.Formatting.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Http.xml
+E:\M.SC.ICT\DSOFOS\bin\System.Web.Http.WebHost.xml
+E:\M.SC.ICT\DSOFOS\bin\EntityFramework.xml
+E:\M.SC.ICT\DSOFOS\bin\EntityFramework.SqlServer.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\M.SC.ICT\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\M.SC.ICT\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+E:\M.SC.ICT\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+E:\M.SC.ICT\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+E:\M.SC.ICT\DSOFOS\obj\Debug\DSOFOS.dll
+E:\M.SC.ICT\DSOFOS\obj\Debug\DSOFOS.pdb
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\DSOFOS.dll.config
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\DSOFOS.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\DSOFOS.pdb
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.exe
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.rsp
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.exe
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.rsp
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.AppContext.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Console.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.Compression.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Net.Http.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.ValueTuple.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.exe
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.rsp
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\VBCSCompiler.exe
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Antlr3.Runtime.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\EntityFramework.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\EntityFramework.SqlServer.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\itextsharp.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Newtonsoft.Json.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\PagedList.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\PagedList.Mvc.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Net.Http.Formatting.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Helpers.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.WebHost.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Mvc.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Optimization.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Razor.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Razor.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\WebGrease.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\PagedList.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\PagedList.Mvc.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Helpers.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Mvc.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Optimization.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Razor.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Razor.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Newtonsoft.Json.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Antlr3.Runtime.pdb
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Net.Http.Formatting.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.WebHost.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\EntityFramework.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\EntityFramework.SqlServer.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.pdb
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\BouncyCastle.Crypto.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\itextsharp.xmlworker.dll
+E:\Msc.ict\sem2\Project\DSOFOS_Auth\DSOFOS\bin\itextsharp.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\DSOFOS.dll.config
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\DSOFOS.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\DSOFOS.pdb
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\BouncyCastle.Crypto.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\EntityFramework.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\itextsharp.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\itextsharp.xmlworker.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Owin.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\PagedList.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\PagedList.Mvc.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Http.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\WebGrease.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\itextsharp.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\PagedList.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\PagedList.Mvc.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Http.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\System.Web.Http.WebHost.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\EntityFramework.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\obj\Debug\DSOFOS.dll
+C:\Users\HP\Desktop\ICT2_Project\DSOFOS\obj\Debug\DSOFOS.pdb
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\DSOFOS.dll.config
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\DSOFOS.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\DSOFOS.pdb
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csc.exe
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csc.exe.config
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csc.rsp
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csi.exe
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csi.exe.config
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\csi.rsp
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.AppContext.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Console.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.IO.Compression.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Net.Http.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.ValueTuple.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\vbc.exe
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\vbc.exe.config
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\vbc.rsp
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\VBCSCompiler.exe
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Antlr3.Runtime.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\BouncyCastle.Crypto.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\EntityFramework.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\EntityFramework.SqlServer.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\itextsharp.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\itextsharp.xmlworker.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Newtonsoft.Json.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Owin.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\PagedList.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\PagedList.Mvc.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Net.Http.Formatting.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Helpers.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Http.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Http.WebHost.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Mvc.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Optimization.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Razor.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.Razor.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\WebGrease.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\itextsharp.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\PagedList.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\PagedList.Mvc.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Helpers.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Mvc.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Optimization.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Razor.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.WebPages.Razor.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Newtonsoft.Json.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Antlr3.Runtime.pdb
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Net.Http.Formatting.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Http.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\System.Web.Http.WebHost.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\EntityFramework.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\EntityFramework.SqlServer.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\obj\Debug\DSOFOS.dll
+E:\M.SC.ICT\Project Backup\LastBackup\DSOFOS\obj\Debug\DSOFOS.pdb
+E:\Msc.ict\sem2\Project\DSOFOS\bin\DSOFOS.dll.config
+E:\Msc.ict\sem2\Project\DSOFOS\bin\DSOFOS.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\DSOFOS.pdb
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csc.exe
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csc.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csc.rsp
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csi.exe
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csi.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\csi.rsp
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.AppContext.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Console.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.IO.Compression.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Net.Http.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.ValueTuple.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\vbc.exe
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\vbc.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\vbc.rsp
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\VBCSCompiler.exe
+E:\Msc.ict\sem2\Project\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Antlr3.Runtime.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\BouncyCastle.Crypto.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\EntityFramework.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\EntityFramework.SqlServer.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\itextsharp.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\itextsharp.xmlworker.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Newtonsoft.Json.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Owin.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\PagedList.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\PagedList.Mvc.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Net.Http.Formatting.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Helpers.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Http.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Http.WebHost.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Mvc.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Optimization.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Razor.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.Razor.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\WebGrease.dll
+E:\Msc.ict\sem2\Project\DSOFOS\bin\itextsharp.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\PagedList.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\PagedList.Mvc.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Helpers.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Mvc.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Optimization.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Razor.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.WebPages.Razor.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Newtonsoft.Json.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Antlr3.Runtime.pdb
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Net.Http.Formatting.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Http.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\System.Web.Http.WebHost.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\EntityFramework.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\EntityFramework.SqlServer.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Msc.ict\sem2\Project\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Msc.ict\sem2\Project\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+E:\Msc.ict\sem2\Project\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+E:\Msc.ict\sem2\Project\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+E:\Msc.ict\sem2\Project\DSOFOS\obj\Debug\DSOFOS.dll
+E:\Msc.ict\sem2\Project\DSOFOS\obj\Debug\DSOFOS.pdb
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\DSOFOS.dll.config
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\DSOFOS.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\DSOFOS.pdb
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.exe
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.exe.config
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csc.rsp
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.exe
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.exe.config
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\csi.rsp
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.AppContext.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Collections.Immutable.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Console.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Globalization.Calendars.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.Compression.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.FileSystem.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Net.Http.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Net.Sockets.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Reflection.Metadata.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.ValueTuple.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XPath.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.exe
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.exe.config
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\vbc.rsp
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\VBCSCompiler.exe
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\roslyn\VBCSCompiler.exe.config
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Antlr3.Runtime.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\BouncyCastle.Crypto.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\EntityFramework.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\EntityFramework.SqlServer.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\itextsharp.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\itextsharp.xmlworker.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Google.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Web.Infrastructure.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Newtonsoft.Json.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Owin.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\PagedList.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\PagedList.Mvc.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Net.Http.Formatting.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Helpers.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.WebHost.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Mvc.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Optimization.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Razor.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Deployment.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Razor.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\WebGrease.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\itextsharp.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\PagedList.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\PagedList.Mvc.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Helpers.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Mvc.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Optimization.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Razor.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Deployment.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.WebPages.Razor.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Newtonsoft.Json.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Antlr3.Runtime.pdb
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Net.Http.Formatting.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\System.Web.Http.WebHost.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\EntityFramework.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\EntityFramework.SqlServer.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Google.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.AssemblyReference.cache
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.CoreCompileInputs.cache
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.csproj.CopyComplete
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.dll
+E:\M.SC.ICT\DSOFOS_Auth\DSOFOS\obj\Debug\DSOFOS.pdb

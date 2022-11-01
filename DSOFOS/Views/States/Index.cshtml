@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.State>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_A_DashboardLayout.cshtml";
+}
+
+<h2>State Details</h2>
+<div class="box box-body box-primary">
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    @using (Html.BeginForm("Index", "States", FormMethod.Get))
+    {
+        <p>
+            Search State: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+            <input type="submit" value="Search" />
+        </p>
+    }
+
+    <table class="table table-striped" id="dtaTable">
+        <thead class="dataTableHead">
+            <tr>
+                <th>
+                    @Html.ActionLink("StateName", "Index", new { Sorting_Order = ViewBag.SortingName })
+                </th>
+                @*<th>
+                        @Html.DisplayNameFor(model => model.StateName)
+                    </th>*@
+                <th>Action</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StateName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.StateId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.StateId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.StateId })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#dtaTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue })) 

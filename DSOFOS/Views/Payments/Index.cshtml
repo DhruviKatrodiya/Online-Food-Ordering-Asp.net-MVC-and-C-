@@ -1,0 +1,102 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.Payment>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>Payment Details</h2>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+
+@using (Html.BeginForm("Index", "Payments", FormMethod.Get))
+{
+    <p>
+        Search Payment Mode: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                Name
+                @*@Html.DisplayNameFor(model => model.Name)*@
+            </th>
+            <th>
+                CardNo
+                @*@Html.DisplayNameFor(model => model.CardNo)*@
+            </th>
+            <th>
+                ExpiryDate
+                @*@Html.DisplayNameFor(model => model.ExpiryDate)*@
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CvvNo)
+                </th>*@
+            <th>
+                Address
+                @*@Html.DisplayNameFor(model => model.Address)*@
+            </th>
+            <th>
+                @Html.ActionLink("PaymentMode", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.PaymentMode)*@
+            </th>
+            @*<th>
+                Amount*@
+                @*@Html.DisplayNameFor(model => model.Amount)*@
+            @*</th>*@
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpiryDate)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.CvvNo)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentMode)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>*@
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.PaymentId }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.PaymentId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.PaymentId })
+                </td>*@
+        </tr>
+    }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))

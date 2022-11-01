@@ -1,0 +1,154 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.UserMaster>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_R_DashboardLayout.cshtml";
+}
+
+<h2>User Lists</h2>
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+@using (Html.BeginForm("Index", "UserMasters", FormMethod.Get))
+{
+    <p>
+        Search User: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                @Html.ActionLink("UserName", "Index", new { Sorting_Order = ViewBag.SortingName })
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>*@
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>*@
+            <th>
+                FirstName
+                @*@Html.DisplayNameFor(model => model.FirstName)*@
+            </th>
+            <th>
+                LastName
+                @*@Html.DisplayNameFor(model => model.LastName)*@
+            </th>
+            <th>
+                EmailId
+                @*@Html.DisplayNameFor(model => model.EmailId)*@
+            </th>
+            <th>
+                ContactNo
+                @*@Html.DisplayNameFor(model => model.ContactNo)*@
+            </th>
+            <th>
+                Image
+                @*@Html.DisplayNameFor(model => model.Image)*@
+            </th>
+            <th>
+                Address
+                @*@Html.DisplayNameFor(model => model.Address)*@
+            </th>
+            <th>
+                CreatedAt
+                @*@Html.DisplayNameFor(model => model.CreatedAt)*@
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.UpdatedAt)
+                </th>*@
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Dob)
+                </th>*@
+            @*<th>
+                    @Html.DisplayNameFor(model => model.City.CityName)
+                </th>*@
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Role.RoleName)
+                </th>*@
+            @*<th>
+                    @Html.DisplayNameFor(model => model.State.StateName)
+                </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNo)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.Image)*@
+                <img src="~/@Html.DisplayFor(modelItem => item.Image)" alt="" width="40px" height="40px">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.UpdatedAt)
+                </td>*@
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dob)
+                </td>*@
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.City.CityName)
+                </td>*@
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Role.RoleName)
+                </td>*@
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.State.StateName)
+                </td>*@
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id=item.UserId }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.UserId }) |*@
+                @Html.ActionLink("Delete", "Delete", new { id = item.UserId })
+            </td>
+        </tr>
+    }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dtaTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue })) 

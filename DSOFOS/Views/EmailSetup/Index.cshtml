@@ -1,0 +1,103 @@
+﻿@model DSOFOS.Models.gmail
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+@*<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width" />
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Index", "EmailSetup", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h2>Email Sending</h2>
+            <table>
+                <tr>
+                    <td style="width :80px">
+                        To:
+                    </td>
+                    <td> @Html.TextBoxFor(model => model.To)</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Subject:
+                    </td>
+                    <td>@Html.TextBoxFor(model => model.Subject)</td>
+
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Body:
+                    </td>
+                    <td>@Html.TextAreaFor(model => model.Body, new { rows = "15", cols = "25" })</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Send" />
+                    </td>
+                    <td></td>
+                </tr>
+
+            </table>
+            <br />
+            <span style="color:green">@ViewBag.Message</span>
+
+        }
+    </div>
+
+</body>
+</html>*@
+
+@using (Html.BeginForm("Index", "EmailSetup", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Contact Us</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.To, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.To, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.To, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Body, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Body, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Send" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+    <br />
+    <span style="color:green">@ViewBag.Message</span>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

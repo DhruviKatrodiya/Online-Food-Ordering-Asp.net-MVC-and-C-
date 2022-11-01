@@ -1,0 +1,85 @@
+﻿@model DSOFOS.Models.MenuItem
+@using DSOFOS.Models
+
+@{
+    ViewBag.Title = "checkoutRest";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+<h2>checkout</h2>
+@if (TempData["FoodCartClass"] != null)
+{
+
+
+    <table class="table table-responsive">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>Status</th>
+                <th>BILL</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in TempData["FoodCartClass"] as List<DSOFOS.Models.FoodCartClass>)
+            {
+
+            <tr>
+                <td>@item.ItemId</td>
+                <td>@item.ItemName</td>
+                <td>@item.Amount</td>
+                <td>@item.Quantity</td>
+                <td>@item.Status</td>
+                <td>@item.Bill</td>
+
+                <td>
+                    <a class='btn btn-danger btn-sm;' href="@Url.Action("removeRest", new {id=@item.ItemId})">&#10008;</a>
+                </td>
+
+            </tr>
+                @*<tr>
+                        <a class='btn btn-primary btn-sm;' href="@Url.Action("Create","PaymentsUser", new {id=@item.ItemId})">Procee to add;</a>
+
+                    </tr>*@
+
+            }
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>@TempData["total"]</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+}
+else
+{
+    <h2 style="color:red"> Cart is empty....</h2>
+    @Html.ActionLink("go Back", "Index")
+}
+
+
+@if (TempData["FoodCartClass"] != null)
+{
+
+
+    using (Html.BeginForm())
+    {
+
+        @*< a href = '@Url.Action("Create", "PaymentsUser", new { id = item.ItemId })' ></ a >*@
+        <input type="submit" value="checkout" class="btn btn-primary" />
+        @Html.ActionLink("go Back", "Index")
+
+
+
+    }
+}

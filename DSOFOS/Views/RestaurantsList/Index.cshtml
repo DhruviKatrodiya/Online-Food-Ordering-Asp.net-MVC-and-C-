@@ -1,0 +1,136 @@
+﻿@model PagedList.IPagedList<DSOFOS.Models.Restaurant>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_A_DashboardLayout.cshtml";
+}
+
+<h2>Restaurants</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "RestaurantsList", FormMethod.Get))
+{
+    <p>
+        Search Restaurant: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table table-striped" id="dtaTable">
+    <thead class="dataTableHead">
+        <tr>
+            <th>
+                @Html.ActionLink("RestaurantName", "Index", new { Sorting_Order = ViewBag.SortingName })
+            </th>
+            @*<th>
+            @Html.DisplayNameFor(model => model.RestaurantName)
+        </th>*@
+            <th>
+                RestaurantImage
+                @*@Html.DisplayNameFor(model => model.RestaurantImage)*@
+            </th>
+            <th>
+                RestaurantDescription
+                @*@Html.DisplayNameFor(model => model.RestaurantDescription)*@
+            </th>
+            <th>
+                StartTime
+                @*@Html.DisplayNameFor(model => model.IsActive)*@
+            </th>
+            <th>
+                EndTime
+                @*@Html.DisplayFor(modelItem => item.OpenTime)*@
+            </th>
+            <th>
+                
+                IsActive
+                @*@Html.DisplayNameFor(model => model.CloseTime)*@
+            </th>
+            <th>
+                @Html.ActionLink("CategoryName", "Index", new { Sorting_Order = ViewBag.SortingName })
+                @*@Html.DisplayNameFor(model => model.Category.CategoryName)*@
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.RestaurantName)
+    </td>
+    <td>
+        @*@Html.DisplayFor(modelItem => item.RestaurantImage)*@
+        <img src="~/@Html.DisplayFor(modelItem => item.RestaurantImage)" alt="" width="80px" height="80px">
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RestaurantDescription)
+    </td>
+    @*<th>
+
+        @Html.DisplayFor(modelItem => item.OpenTime)
+    </th>
+    <th>
+
+        @Html.DisplayFor(modelItem => item.CloseTime)
+    </th>*@
+
+    <th>
+
+        @Html.DisplayFor(modelItem => item.startTime)
+    </th>
+    <th>
+
+        @Html.DisplayFor(modelItem => item.endTime)
+    </th>
+
+
+
+    @*<td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>*@
+
+
+    <td>
+        @*@Html.DisplayFor(modelitem => item.IsActive)*@
+        @{
+            if (item.IsActive)
+            {
+                <a href="#" style="padding:5px 10px 5px 10px;background-color:green" class="badge" readonly>active</a>
+            }
+            else
+            {
+                <a href="#" style="padding:5px 10px 5px 10px;background-color:red" class="badge" readonly>de-active</a>
+            }
+        }
+    </td>
+
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.RestaurantId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.RestaurantId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.RestaurantId })
+    </td>
+</tr>
+    }
+
+</table>
+<script>
+    $(document).ready(function () {
+        $('#dataTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true
+        });
+    });
+</script>
+<br />
+Pages @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))

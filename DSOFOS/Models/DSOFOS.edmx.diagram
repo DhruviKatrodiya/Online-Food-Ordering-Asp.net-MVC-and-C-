@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e46b0115805c466793b1e54f655b36c7" Name="Diagram1">
+        <EntityTypeShape EntityType="DSOFOSDBModel.Cart" PointX="13.5" PointY="1" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.City" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Contact" PointX="0.75" PointY="12.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.MenuItem" Width="1.5" PointX="10.375" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Order" PointX="15.625" PointY="7" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.State" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.sysdiagram" Width="1.5" PointX="8.375" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.tbl_invoice" Width="1.5" PointX="8.125" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="DSOFOSDBModel.FK_Cart_MenuItem" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_City_State" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="DSOFOSDBModel.FK_Order_MenuItem" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Payment" Width="1.5" PointX="0.75" PointY="8.75" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Order_Payment" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Feedback" Width="1.5" PointX="8.125" PointY="12.75" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Category" Width="1.5" PointX="3" PointY="4.5" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_MenuItem_Category" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.tbl_order" Width="1.5" PointX="12.625" PointY="6.25" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_tbl_menu" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_tbl_invoicee" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Restaurant" Width="1.5" PointX="4.625" PointY="10.5" />
+        <AssociationConnector Association="DSOFOSDBModel.Category_Id" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Category_Torestaurant" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Order_Restaurant" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.UserMaster" Width="1.5" PointX="5.25" PointY="2.75" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Cart_UserMaster" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_UserMaster_City" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Feedback_UserMaster" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Order_UserMaster" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_UserMaster_Roles" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_UserMaster_State" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_tbl_invoice" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_tbl_order_UserMaster" />
+        <EntityTypeShape EntityType="DSOFOSDBModel.Review" Width="1.5" PointX="12.625" PointY="10.5" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Review_MenuItem" />
+        <AssociationConnector Association="DSOFOSDBModel.FK_Review_UserMaster" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

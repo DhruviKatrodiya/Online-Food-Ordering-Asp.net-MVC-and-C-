@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DSOFOS.ViewModel.CategoryViewModel>
+@{
+    ViewBag.Title = "ShowCategory";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Success!</strong> Order
+    </div>
+
+}
+<!--<table class="table table-striped" id="dtaTable">
+       <thead class="dataTableHead">
+
+           <tr>
+               <td>
+                  item.CategoryName
+               </td>
+               <td>
+                   item.Image
+               </td>
+               <td>-->
+@*<a href='@Url.Action("ShowMenu",new {categoryId = item.CategoryId})'>*@
+<!--<input type='button' value='Show Menu' class="btn btn-primary" />
+                </a>
+            </td>
+
+        </tr>
+    </thead>
+</table>-->
+
+<div class="row">
+ 
+
+    <div class="container">
+        <h2 class="text-center">Menu Lists</h2>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4" style="border:2px solid black">
+                <div style="text-align:center; border-bottom:2px solid maroon">
+                    <h3>@item.CategoryName</h3>
+                </div>
+                <div>
+                    <div class="col-md-8">
+                        <img src="~/@Html.DisplayFor(modelItem => item.Image)" alt="" width="100px" height="100px">
+
+                    </div>
+                   
+                </div>
+
+                
+
+                <div class="col-md-4" style="text-align:right; margin-bottom:10px;border-top:2px solid maroon;padding:2px">
+                    @*<input type="button" name="AddToCart" value="Add to Cart" class="btn btn-primary" itemid="@item.MenuItemId" id="btnAddToCart" onclick="AddToCart(this)"/>*@
+                    <h4 style="color:#808080; font-family:'Arial Rounded MT';text-align:center">
+                        <span class="btn btn-success">
+                          
+                            @Html.ActionLink("Category", "ShowMenu","RestaurantsList", new { id = @item.CategoryId })
+                        </span>
+                    </h4>
+
+                    @*<td>
+                        @Html.ActionLink("Review", "ShowCategory", new { categoryId = @item.categoryId })
+                        <a href='@Url.Action("ShowMenu",new {categoryId = item.CategoryId})'>
+                        <input type='button' value='Show Menu' class="btn btn-primary" />
+                        </td>*@
+                    </div>
+
+
+                </div>
+            }
+        </div>

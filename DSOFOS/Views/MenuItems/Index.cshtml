@@ -1,0 +1,187 @@
+﻿@model IEnumerable<DSOFOS.Models.MenuItem>
+    @using DSOFOS.Models;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/User_Layout.cshtml";
+}
+@*<script type="text/javascript">
+    function AddToCart(item) {
+        var menuItemId = $(item).attr("itemid");
+        var formData = new FormData();
+        formData.append("MenuItemId", menuItemId);
+
+        $.ajax({
+            async: true,
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            data: formData,
+            url: '/MenuItems/Index',
+            success: function (data) {
+
+            },
+            error: function () {
+                alert("There is some problem!!");
+            }
+        });
+    }
+</script>*@
+
+@*<center><h2><b>Category Lists</b></h2></center>
+<br />*@
+
+@if (TempData["msg"] != null)
+{ 
+<div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Success!</strong> TempData["msg"]
+</div>
+
+}
+
+<div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-10">
+        @if (TempData["total"] == null)
+        {
+
+            <h3>
+                Total Bill: 0 Rs
+            </h3>
+        }
+        else
+        {
+            <h3> Total Bill: @TempData["total"] Rs</h3>
+
+        }
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <h3 style="color:#808080; font-family:'Arial Rounded MT';text-align:center"> <span class="btn btn-info">@Html.ActionLink("Check Out", "checkout", "MenuItems")</span></h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">Menu Lists</h2>
+        @foreach (var item in Model)
+        {
+    <div class="col-md-4" style="border:2px solid black">
+        <div style="text-align:center; border-bottom:2px solid maroon">
+            <h3>@item.MenuItemName</h3>
+        </div>
+        <div>
+            <div class="col-md-8">
+                <img src="~/@Html.DisplayFor(modelItem => item.MenuItemImage)" alt="" width="100px" height="100px">
+
+            </div>
+            <div class="col-md-4" style="text-align:left">
+                <b>@item.MenuItemDescription</b>
+            </div>
+        </div>
+
+        <div class="col-md-8" style="font-size:18px; border-top:2px solid maroon;padding:2px">
+            <b>@item.Amount</b>
+        </div>
+
+        <div class="col-md-4" style="text-align:right; margin-bottom:10px;border-top:2px solid maroon;padding:2px">
+            @*<input type="button" name="AddToCart" value="Add to Cart" class="btn btn-primary" itemid="@item.MenuItemId" id="btnAddToCart" onclick="AddToCart(this)"/>*@
+            <h4 style="color:#808080; font-family:'Arial Rounded MT';text-align:center">
+                <span class="btn btn-success">
+                    <i style="font-size:20px" class="fa">&#xf07a;</i>
+                    @Html.ActionLink("Add To Cart", "Adtocart", new { id = @item.MenuItemId })
+                </span>
+            </h4>
+            
+            <td>
+                @Html.ActionLink("Review", "ShowComment", new { menuItemId = @item.MenuItemId })
+            </td>
+        </div>
+
+       
+    </div>
+        }
+    </div>
+
+
+
+
+
+
+
+
+
+
+    @*<p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MenuItemName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MenuItemImage)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MenuItemDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VegNonProfile)
+                </th>
+                <th>
+                        @Html.DisplayNameFor(model => model.CreatedAt)
+                    </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.CategoryName)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MenuItemName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MenuItemImage)
+                        <img src="~/@Html.DisplayFor(modelItem => item.MenuItemImage)" alt="" width="100px" height="100px">
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MenuItemDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsActive)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VegNonProfile)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.CreatedAt)
+                        </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                            @Html.ActionLink("Edit", "Edit", new { id=item.MenuItemId }) |
+                            @Html.ActionLink("Details", "Details", new { id=item.MenuItemId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id=item.MenuItemId })
+                        </td>
+
+                </tr>
+            }
+
+        </table>*@
